@@ -16,6 +16,6 @@
       docker_container:
         name: apache2
         state: present
-        images: taqykimura/httpd:5
-        published_port:
-          - 8082:80
+        image: taqykimura/httpd:5
+        published_ports:
+          - "8082:80"
