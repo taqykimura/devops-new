@@ -18,4 +18,4 @@
         state: present
         images: taqykimura/httpd:5
         published_port:
-          - 8081:80
+          - 8082:80
