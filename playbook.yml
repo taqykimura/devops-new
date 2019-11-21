@@ -15,7 +15,7 @@
     - name: run container
       docker_container:
         name: apache2
-        state: present
+        state: started
         image: taqykimura/httpd:5
         published_ports:
           - "8082:80"
